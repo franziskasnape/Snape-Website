@@ -11,95 +11,74 @@
 
 <header class="site-header">
   <div class="header-top container">
-    <a class="logo" href="index.html">Snape<span>Art Conservation</span></a>
+    <a class="logo" href="index.html">
+      <span class="logo-main">
+        <span class="logo-name">Snape</span>
+        <span class="logo-sub">Art Conservation</span>
+      </span>
+      <span class="logo-divider"></span>
+      <span class="logo-tagline">
+        <span data-i18n="logo.tagline1">Conservation &amp; Restoration</span>
+        <span data-i18n="logo.tagline2">of Paintings and Sculptures</span>
+      </span>
+    </a>
     <div class="header-contact">
-      <a href="tel:+41786521080">+41 78 652 1080</a>
-      <a href="mailto:info@snapeartconservation.com">info@snapeartconservation.com</a>
+      <a href="tel:+41786521080">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        +41 78 652 1080
+      </a>
+      <a href="mailto:info@snapeartconservation.com">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+        info@snapeartconservation.com
+      </a>
     </div>
     <div class="header-controls">
-      <div class="lang-toggle">
-        <button class="lang-btn" data-lang="en">EN</button>
-        <button class="lang-btn" data-lang="de">DE</button>
-      </div>
       <button class="menu-toggle" aria-label="Menu" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
     </div>
   </div>
   <nav class="main-nav">
-    <ul class="container">
-      <li><a href="index.html" data-i18n="nav.home">Home</a></li>
-      <li><a href="services.html" data-i18n="nav.services">Services</a></li>
-      <li><a href="about.html" data-i18n="nav.about">About</a></li>
-      <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
-    </ul>
+    <div class="container nav-row">
+      <ul>
+        <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+        <li><a href="services.html" data-i18n="nav.services">Services</a></li>
+        <li><a href="about.html" data-i18n="nav.about">About</a></li>
+        <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+      </ul>
+      <div class="lang-toggle">
+        <button class="lang-btn" data-lang="en">EN</button>
+        <button class="lang-btn" data-lang="de">DE</button>
+      </div>
+    </div>
   </nav>
 </header>
 
 <main>
 
-  <section class="hero">
-    <div class="container hero-grid">
+  <section class="hero hero-simple">
+    <div class="container">
       <div class="hero-copy fade-in">
-        <span class="eyebrow" data-i18n="home.eyebrow">Conservation &amp; Restoration Studio</span>
-        <h1 data-i18n="home.title">Snape Art Conservation</h1>
+        <h1><span data-i18n="home.title.line1">Welcome to</span><br><span class="hero-title-name">Snape</span> Art Conservation</h1>
         <p class="lead" data-i18n="home.lead">Conservation and restoration studio for paintings and sculptures — from old masters to contemporary works.</p>
-        <div class="hero-actions">
-          <a class="btn btn-solid" href="contact.html" data-i18n="home.cta.contact">Get in touch</a>
-          <a class="btn" href="services.html" data-i18n="home.cta.services">View services</a>
-        </div>
-      </div>
-      <div class="hero-image fade-in">
-        <img src="images/hero-portrait.jpg" alt="Historical portrait painting, reference to old master conservation work">
       </div>
     </div>
   </section>
 
-  <section class="section-alt">
+  <section class="hero-reel-section">
     <div class="container">
-      <div class="section-head fade-in">
-        <span class="eyebrow" data-i18n="home.reel.eyebrow">Recent Work</span>
-        <h2 data-i18n="home.intro.title">Careful hands, scientific rigour</h2>
-        <p class="intro-text" data-i18n="home.intro.text">Every object carries its own history. I combine traditional craftsmanship with modern conservation science to stabilise, clean and restore paintings and sculptures — always respecting the integrity of the original work.</p>
-      </div>
-      <div class="reel fade-in">
+      <div class="reel reel--hero fade-in">
         <div class="reel-track">
           <img src="images/home-1.jpg" alt="Conservator examining a large painted decorative screen">
           <img src="images/home-2.jpg" alt="Microscopic cross-section analysis of a paint sample">
           <img src="images/home-3.jpg" alt="Pigment box used for retouching and colour matching">
           <img src="images/home-4.jpg" alt="Restored decorative theatre scenery panel">
           <img src="images/home-5.jpg" alt="Cross-section of a painting's canvas and stretcher edge">
+          <img src="images/home-6.jpg" alt="Shelves of pigment jars used for colour matching and retouching">
         </div>
-        <div class="reel-nav">
-          <button class="reel-prev" aria-label="Previous">&#8249;</button>
-          <button class="reel-next" aria-label="Next">&#8250;</button>
-        </div>
+        <button class="reel-arrow reel-arrow-prev reel-prev" aria-label="Previous">&#8249;</button>
+        <button class="reel-arrow reel-arrow-next reel-next" aria-label="Next">&#8250;</button>
       </div>
-    </div>
-  </section>
-
-  <section>
-    <div class="container">
-      <div class="section-head fade-in">
-        <h2 data-i18n="home.highlights.title">What I do</h2>
-      </div>
-      <div class="highlight-grid">
-        <div class="highlight fade-in">
-          <h3 data-i18n="home.h1.title">Structural Conservation</h3>
-          <p data-i18n="home.h1.text">Tear mending, lining and support repairs that stabilise a work for the long term.</p>
-        </div>
-        <div class="highlight fade-in">
-          <h3 data-i18n="home.h2.title">Retouching</h3>
-          <p data-i18n="home.h2.text">Careful, reversible in-painting that stays true to the artist's original palette.</p>
-        </div>
-        <div class="highlight fade-in">
-          <h3 data-i18n="home.h3.title">Technical Analysis</h3>
-          <p data-i18n="home.h3.text">Microscopy and pigment analysis to understand material, technique and condition.</p>
-        </div>
-      </div>
-      <p style="margin-top:28px;">
-        <a class="card-link" href="services.html" data-i18n="home.highlights.link">See all services</a>
-      </p>
     </div>
   </section>
 
@@ -108,14 +87,7 @@
 <footer class="site-footer">
   <div class="container">
     <div class="footer-grid">
-      <div>
-        <div class="footer-brand">Snape Art Conservation</div>
-        <p class="footer-member" data-i18n="footer.member">Proud member of SKR &amp; VDR</p>
-      </div>
-      <div class="footer-contact">
-        <a href="mailto:info@snapeartconservation.com">info@snapeartconservation.com</a>
-        <a href="tel:+41786521080">+41 78 652 1080</a>
-      </div>
+      <img src="images/monogram.svg" alt="Snape Art Conservation monogram" class="footer-monogram">
       <div class="footer-social">
         <a href="#" aria-label="Instagram">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
@@ -127,10 +99,17 @@
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h-2a4 4 0 0 0-4 4v3H7v4h2v7h4v-7h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
         </a>
       </div>
+      <div>
+        <p class="footer-member">
+          <span data-i18n="footer.member.prefix">Proud member of</span>
+          <a href="https://www.restaurierung.swiss/de/verband" target="_blank" rel="noopener noreferrer">SKR</a>
+          &amp;
+          <a href="https://www.restauratoren.de/der-vdr/" target="_blank" rel="noopener noreferrer">VDR</a>
+        </p>
+      </div>
     </div>
     <div class="footer-bottom">
       <span>&copy; <span id="year"></span> Snape Art Conservation. <span data-i18n="footer.rights">All rights reserved.</span></span>
-      <span data-i18n="footer.tagline">Conservation &amp; Restoration Studio</span>
     </div>
   </div>
 </footer>

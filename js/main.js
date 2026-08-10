@@ -106,26 +106,64 @@
     items.forEach(function (el) { observer.observe(el); });
   }
 
+  function initServiceToggles() {
+    document.querySelectorAll(".service-toggle").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        var expanded = btn.getAttribute("aria-expanded") === "true";
+        btn.setAttribute("aria-expanded", expanded ? "false" : "true");
+      });
+    });
+  }
+
   function initContactForm() {
     var form = document.querySelector("#contact-form");
     if (!form) return;
+    // Submits directly via FormSubmit.co (no backend needed, no account setup
+    // required by the site owner beyond confirming the destination inbox once).
+    var endpoint = "https://formsubmit.co/ajax/info@snapeartconservation.com";
+
     form.addEventListener("submit", function (e) {
       e.preventDefault();
+      var lang = document.documentElement.getAttribute("lang") || "en";
+      var status = form.querySelector(".form-status");
+      var submitBtn = form.querySelector('button[type="submit"]');
       var name = form.querySelector("#name").value.trim();
       var email = form.querySelector("#email").value.trim();
       var message = form.querySelector("#message").value.trim();
-      var lang = document.documentElement.getAttribute("lang") || "en";
-      var subject = encodeURIComponent("Website enquiry — " + name);
-      var body = encodeURIComponent(
-        (lang === "de" ? "Name: " : "Name: ") + name +
-        "\n" + (lang === "de" ? "E-Mail: " : "Email: ") + email +
-        "\n\n" + message
-      );
-      window.location.href = "mailto:info@snapeartconservation.com?subject=" + subject + "&body=" + body;
-      var status = form.querySelector(".form-status");
+
       if (status) {
-        status.textContent = translations[lang]["contact.form.note"];
+        status.classList.remove("is-error");
+        status.textContent = translations[lang]["contact.form.sending"];
       }
+      if (submitBtn) submitBtn.disabled = true;
+
+      fetch(endpoint, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", "Accept": "application/json" },
+        body: JSON.stringify({
+          name: name,
+          email: email,
+          message: message,
+          _subject: "New website enquiry — Snape Art Conservation"
+        })
+      })
+        .then(function (res) {
+          if (!res.ok) throw new Error("Request failed");
+          return res.json();
+        })
+        .then(function () {
+          if (status) status.textContent = translations[lang]["contact.form.success"];
+          form.reset();
+        })
+        .catch(function () {
+          if (status) {
+            status.classList.add("is-error");
+            status.textContent = translations[lang]["contact.form.error"];
+          }
+        })
+        .finally(function () {
+          if (submitBtn) submitBtn.disabled = false;
+        });
     });
   }
 
@@ -136,6 +174,7 @@
     initActiveNav();
     initReel();
     initFadeIn();
+    initServiceToggles();
     initContactForm();
   });
 })();

@@ -2,3 +2,23 @@
 *.heic
 *.HEIC
 Thumbs.db
+
+# Working/reference files (screenshots, sketches, source photos, font packages)
+# — not part of the published site
+*.png
+*.PNG
+*.jpg
+*.jpeg
+*.JPG
+*.JPEG
+Amulya_Complete/
+Synonym_Complete/
+!images/*.png
+!images/*.PNG
+!images/*.jpg
+!images/*.jpeg
+
+# Stray duplicate files from earlier syncing (superseded by css/ and js/ folders)
+/main.js
+/style.css
+/translations.js

@@ -3,36 +3,54 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Services — Snape Art Conservation</title>
-<meta name="description" content="Structural conservation, retouching, technical analysis and large-scale decorative work for paintings and sculptures.">
+<title>Service Spectrum — Snape Art Conservation</title>
+<meta name="description" content="Investigation and analysis, conservation and restoration, condition reporting, collection care and exhibition support for paintings and sculptures.">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
 <header class="site-header">
   <div class="header-top container">
-    <a class="logo" href="index.html">Snape<span>Art Conservation</span></a>
+    <a class="logo" href="index.html">
+      <span class="logo-main">
+        <span class="logo-name">Snape</span>
+        <span class="logo-sub">Art Conservation</span>
+      </span>
+      <span class="logo-divider"></span>
+      <span class="logo-tagline">
+        <span data-i18n="logo.tagline1">Conservation &amp; Restoration</span>
+        <span data-i18n="logo.tagline2">of Paintings and Sculptures</span>
+      </span>
+    </a>
     <div class="header-contact">
-      <a href="tel:+41786521080">+41 78 652 1080</a>
-      <a href="mailto:info@snapeartconservation.com">info@snapeartconservation.com</a>
+      <a href="tel:+41786521080">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        +41 78 652 1080
+      </a>
+      <a href="mailto:info@snapeartconservation.com">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+        info@snapeartconservation.com
+      </a>
     </div>
     <div class="header-controls">
-      <div class="lang-toggle">
-        <button class="lang-btn" data-lang="en">EN</button>
-        <button class="lang-btn" data-lang="de">DE</button>
-      </div>
       <button class="menu-toggle" aria-label="Menu" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
     </div>
   </div>
   <nav class="main-nav">
-    <ul class="container">
-      <li><a href="index.html" data-i18n="nav.home">Home</a></li>
-      <li><a href="services.html" data-i18n="nav.services">Services</a></li>
-      <li><a href="about.html" data-i18n="nav.about">About</a></li>
-      <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
-    </ul>
+    <div class="container nav-row">
+      <ul>
+        <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+        <li><a href="services.html" data-i18n="nav.services">Services</a></li>
+        <li><a href="about.html" data-i18n="nav.about">About</a></li>
+        <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+      </ul>
+      <div class="lang-toggle">
+        <button class="lang-btn" data-lang="en">EN</button>
+        <button class="lang-btn" data-lang="de">DE</button>
+      </div>
+    </div>
   </nav>
 </header>
 
@@ -43,43 +61,162 @@
       <div class="section-head fade-in">
         <span class="eyebrow" data-i18n="services.eyebrow">What I offer</span>
         <h1 data-i18n="services.title">Services</h1>
-        <p class="intro-text" data-i18n="services.intro">From structural repairs to scientific analysis, every treatment is tailored to the object and its condition.</p>
+        <p class="intro-text" data-i18n="services.intro">Conserving artworks means more than treating visible damage — it means preserving their original substance for future generations. Where restoration is needed, damage is carefully repaired and losses reintegrated, always with the artwork's integrity in mind. Every measure is minimally invasive, reversible, scientifically grounded and tailored to the individual object. The conservation-restoration treatments can be executed at our studio or on-site at your home or facility.</p>
       </div>
     </div>
   </section>
 
   <section style="padding-top:0;">
-    <div class="container card-grid">
+    <div class="container service-list">
 
-      <div class="card fade-in">
-        <img src="images/service-structural.jpg" alt="Cross-section of a canvas edge and stretcher bar showing structural repair">
-        <div class="card-body">
-          <h3 data-i18n="services.structural.title">Structural &amp; Support Conservation</h3>
-          <p data-i18n="services.structural.text">Tear mending, lining, and repairs to stretchers and supports to stabilise paintings for the long term.</p>
+      <div class="service-row fade-in">
+        <div class="service-row-image">
+          <img src="images/service-analysis.jpg" alt="Microscope cross-section view of pigment layers">
+        </div>
+        <div class="service-row-body">
+          <h3 data-i18n="services.item1.title">Investigation &amp; Analysis</h3>
+          <p class="service-tagline" data-i18n="services.item1.tagline">The foundation of every conservation decision.</p>
+          <p class="service-text" data-i18n="services.item1.text">No artwork is like another — materials, techniques and ageing processes are as individual as its history. Investigation analyses an object's material composition and condition, uncovering the causes of damage and revealing its technique and history, forming the basis for a tailored conservation concept.</p>
+          <button class="service-toggle" type="button" aria-expanded="false">
+            <span class="service-toggle-label" data-i18n="services.leistungen.label">Services</span>
+            <svg class="service-toggle-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="service-details">
+            <div class="service-details-inner">
+              <ul class="service-bullets">
+            <li data-i18n="services.item1.b1">Object examination</li>
+            <li data-i18n="services.item1.b2">Condition &amp; damage analysis</li>
+            <li data-i18n="services.item1.b3">Examination of materials and techniques</li>
+            <li data-i18n="services.item1.b4">UV examination</li>
+            <li data-i18n="services.item1.b5">Microscopic examination</li>
+            <li data-i18n="services.item1.b6">Creation of mapping</li>
+            <li data-i18n="services.item1.b7">Development of tailored conservation and restoration concepts</li>
+            <li data-i18n="services.item1.b8">Collaboration with external laboratories where required</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
 
-      <div class="card fade-in">
-        <img src="images/service-retouching.jpg" alt="Retouched area of a painting showing colour-matched inpainting">
-        <div class="card-body">
-          <h3 data-i18n="services.retouching.title">Retouching &amp; Colour Matching</h3>
-          <p data-i18n="services.retouching.text">Careful, reversible in-painting to reintegrate losses while remaining true to the artist's original palette.</p>
+      <div class="service-row fade-in">
+        <div class="service-row-image">
+          <img src="images/service-structural.jpg" alt="Cross-section of a canvas edge and stretcher bar showing structural repair">
+        </div>
+        <div class="service-row-body">
+          <h3 data-i18n="services.item2.title">Conservation &amp; Restoration</h3>
+          <p class="service-tagline" data-i18n="services.item2.tagline">Stabilising the object, restoring its story.</p>
+          <p class="service-text" data-i18n="services.item2.text">Conservation is about stabilising an object and preserving what remains, using reversible methods wherever possible. Restoration then builds on that foundation, carefully repairing damage and refining appearance — from structural work to mounting and framing — so the artwork can be seen and understood as intended.</p>
+          <button class="service-toggle" type="button" aria-expanded="false">
+            <span class="service-toggle-label" data-i18n="services.leistungen.label">Services</span>
+            <svg class="service-toggle-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="service-details">
+            <div class="service-details-inner">
+              <ul class="service-bullets">
+            <li data-i18n="services.item2.b1">Conservation and restoration of paintings</li>
+            <li data-i18n="services.item2.b2">Conservation and restoration of sculptures</li>
+            <li data-i18n="services.item2.b3">Conservation and restoration of frames</li>
+            <li data-i18n="services.item2.b13">Mounting and framing of artworks (including works on paper)</li>
+            <li data-i18n="services.item2.b14">Concept of new hanging system</li>
+            <li data-i18n="services.item2.b4">Surface cleaning</li>
+            <li data-i18n="services.item2.b5">Consolidation and stabilisation of the paint layer</li>
+            <li data-i18n="services.item2.b6">Filling losses</li>
+            <li data-i18n="services.item2.b7">Retouching and aesthetic integration</li>
+            <li data-i18n="services.item2.b8">Treatment of deformations</li>
+            <li data-i18n="services.item2.b9">Tear mending and stabilisation of the support</li>
+            <li data-i18n="services.item2.b10">Relining and tension adjustment of canvas paintings</li>
+            <li data-i18n="services.item2.b11">Varnish treatments</li>
+            <li data-i18n="services.item2.b15">Gilding work</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
 
-      <div class="card fade-in">
-        <img src="images/service-analysis.jpg" alt="Microscope cross-section view of pigment layers">
-        <div class="card-body">
-          <h3 data-i18n="services.analysis.title">Technical &amp; Scientific Examination</h3>
-          <p data-i18n="services.analysis.text">Microscopy, cross-section and pigment analysis to understand materials, technique and condition before treatment begins.</p>
+      <div class="service-row fade-in">
+        <div class="service-row-image">
+          <img src="images/service-retouching.jpg" alt="Retouched area of a painting showing colour-matched inpainting">
+        </div>
+        <div class="service-row-body">
+          <h3 data-i18n="services.item3.title">Condition Reports &amp; Documentation</h3>
+          <p class="service-tagline" data-i18n="services.item3.tagline">Evidence for every decision that follows.</p>
+          <p class="service-text" data-i18n="services.item3.text">Every step of a conservation-restoration project is carefully documented — the findings, the treatment approach and the materials used — creating a clear record for restoration projects, loans, insurance and collection care.</p>
+          <button class="service-toggle" type="button" aria-expanded="false">
+            <span class="service-toggle-label" data-i18n="services.leistungen.label">Services</span>
+            <svg class="service-toggle-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="service-details">
+            <div class="service-details-inner">
+              <ul class="service-bullets">
+            <li data-i18n="services.item3.b1">Preparation of condition reports</li>
+            <li data-i18n="services.item3.b8">Written and photographic documentation</li>
+            <li data-i18n="services.item3.b2">Digital damage mapping</li>
+            <li data-i18n="services.item3.b3">High-resolution photos</li>
+            <li data-i18n="services.item3.b4">Before-and-after documentation</li>
+            <li data-i18n="services.item3.b5">Documentation for restoration projects</li>
+            <li data-i18n="services.item3.b6">Documentation for loans and exhibitions</li>
+            <li data-i18n="services.item3.b7">Documentation for insurance</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
 
-      <div class="card fade-in">
-        <img src="images/service-largescale.jpg" alt="Large restored decorative theatre scenery panel">
-        <div class="card-body">
-          <h3 data-i18n="services.largescale.title">Large-Scale &amp; Decorative Works</h3>
-          <p data-i18n="services.largescale.text">Condition assessment and restoration of large decorative paintings, screens and theatrical scenery.</p>
+      <div class="service-row fade-in">
+        <div class="service-row-image">
+          <img src="images/service-largescale.jpg" alt="Large restored decorative theatre scenery panel">
+        </div>
+        <div class="service-row-body">
+          <h3 data-i18n="services.item4.title">Collection Care &amp; Conservation Consulting</h3>
+          <p class="service-tagline" data-i18n="services.item4.tagline">Prevention, planning and peace of mind.</p>
+          <p class="service-text" data-i18n="services.item4.text">Preventing damage is always preferable to treating it. Knowing where the risks lie makes it possible to put the right measures in place for exhibition, storage, use and transport — tailored to museums, institutions, collections and private owners alike.</p>
+          <button class="service-toggle" type="button" aria-expanded="false">
+            <span class="service-toggle-label" data-i18n="services.leistungen.label">Services</span>
+            <svg class="service-toggle-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="service-details">
+            <div class="service-details-inner">
+              <ul class="service-bullets">
+            <li data-i18n="services.item4.b1">Preventative conservation</li>
+            <li data-i18n="services.item4.b2">Conservation consulting</li>
+            <li data-i18n="services.item4.b3">Collection care</li>
+            <li data-i18n="services.item4.b4">Regular condition monitoring</li>
+            <li data-i18n="services.item4.b5">Climate and lighting consulting</li>
+            <li data-i18n="services.item4.b6">Storage and depot concepts</li>
+            <li data-i18n="services.item4.b7">Packaging consulting for collection care</li>
+            <li data-i18n="services.item4.b8">Transport and handling consulting for collection care</li>
+            <li data-i18n="services.item4.b9">Integrated pest management (IPM)</li>
+            <li data-i18n="services.item4.b10">Collection inventory</li>
+            <li data-i18n="services.item4.b11">Depot and exhibition consulting</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="service-row fade-in">
+        <div class="service-row-image">
+          <img src="images/home-4.jpg" alt="Restored decorative theatre scenery panel prepared for exhibition">
+        </div>
+        <div class="service-row-body">
+          <h3 data-i18n="services.item5.title">Loans, Exhibitions &amp; Transport</h3>
+          <p class="service-tagline" data-i18n="services.item5.tagline">Safe accompaniment of artworks — from storage to exhibition.</p>
+          <p class="service-text" data-i18n="services.item5.text">Loans, transport and exhibitions present particular conservation challenges. Professional planning and on-site supervision keep artworks safe at every stage.</p>
+          <button class="service-toggle" type="button" aria-expanded="false">
+            <span class="service-toggle-label" data-i18n="services.leistungen.label">Services</span>
+            <svg class="service-toggle-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="service-details">
+            <div class="service-details-inner">
+              <ul class="service-bullets">
+            <li data-i18n="services.item5.b3">Conservation supervision during transport and exhibitions</li>
+            <li data-i18n="services.item5.b4">Packaging and transport consulting for loans and exhibitions</li>
+            <li data-i18n="services.item5.b5">Supervision of packing and unpacking</li>
+            <li data-i18n="services.item5.b6">Installation and de-installation of artworks</li>
+            <li data-i18n="services.item5.b7">Courier accompaniment</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -88,8 +225,7 @@
 
   <section class="section-alt">
     <div class="container" style="text-align:center;">
-      <h2 class="fade-in" data-i18n="services.cta.title">Have a piece that needs attention?</h2>
-      <p class="fade-in" style="max-width:52ch;margin:0 auto 22px;" data-i18n="services.cta.text">Get in touch for a condition assessment and treatment proposal.</p>
+      <h2 class="fade-in" data-i18n="services.cta.title">Does your object need help?</h2>
       <a class="btn btn-solid fade-in" href="contact.html" data-i18n="services.cta.button">Request an assessment</a>
     </div>
   </section>
@@ -99,14 +235,7 @@
 <footer class="site-footer">
   <div class="container">
     <div class="footer-grid">
-      <div>
-        <div class="footer-brand">Snape Art Conservation</div>
-        <p class="footer-member" data-i18n="footer.member">Proud member of SKR &amp; VDR</p>
-      </div>
-      <div class="footer-contact">
-        <a href="mailto:info@snapeartconservation.com">info@snapeartconservation.com</a>
-        <a href="tel:+41786521080">+41 78 652 1080</a>
-      </div>
+      <img src="images/monogram.svg" alt="Snape Art Conservation monogram" class="footer-monogram">
       <div class="footer-social">
         <a href="#" aria-label="Instagram">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
@@ -118,10 +247,17 @@
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h-2a4 4 0 0 0-4 4v3H7v4h2v7h4v-7h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
         </a>
       </div>
+      <div>
+        <p class="footer-member">
+          <span data-i18n="footer.member.prefix">Proud member of</span>
+          <a href="https://www.restaurierung.swiss/de/verband" target="_blank" rel="noopener noreferrer">SKR</a>
+          &amp;
+          <a href="https://www.restauratoren.de/der-vdr/" target="_blank" rel="noopener noreferrer">VDR</a>
+        </p>
+      </div>
     </div>
     <div class="footer-bottom">
       <span>&copy; <span id="year"></span> Snape Art Conservation. <span data-i18n="footer.rights">All rights reserved.</span></span>
-      <span data-i18n="footer.tagline">Conservation &amp; Restoration Studio</span>
     </div>
   </div>
 </footer>

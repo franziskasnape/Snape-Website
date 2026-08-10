@@ -11,28 +11,46 @@
 
 <header class="site-header">
   <div class="header-top container">
-    <a class="logo" href="index.html">Snape<span>Art Conservation</span></a>
+    <a class="logo" href="index.html">
+      <span class="logo-main">
+        <span class="logo-name">Snape</span>
+        <span class="logo-sub">Art Conservation</span>
+      </span>
+      <span class="logo-divider"></span>
+      <span class="logo-tagline">
+        <span data-i18n="logo.tagline1">Conservation &amp; Restoration</span>
+        <span data-i18n="logo.tagline2">of Paintings and Sculptures</span>
+      </span>
+    </a>
     <div class="header-contact">
-      <a href="tel:+41786521080">+41 78 652 1080</a>
-      <a href="mailto:info@snapeartconservation.com">info@snapeartconservation.com</a>
+      <a href="tel:+41786521080">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        +41 78 652 1080
+      </a>
+      <a href="mailto:info@snapeartconservation.com">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+        info@snapeartconservation.com
+      </a>
     </div>
     <div class="header-controls">
-      <div class="lang-toggle">
-        <button class="lang-btn" data-lang="en">EN</button>
-        <button class="lang-btn" data-lang="de">DE</button>
-      </div>
       <button class="menu-toggle" aria-label="Menu" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
     </div>
   </div>
   <nav class="main-nav">
-    <ul class="container">
-      <li><a href="index.html" data-i18n="nav.home">Home</a></li>
-      <li><a href="services.html" data-i18n="nav.services">Services</a></li>
-      <li><a href="about.html" data-i18n="nav.about">About</a></li>
-      <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
-    </ul>
+    <div class="container nav-row">
+      <ul>
+        <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+        <li><a href="services.html" data-i18n="nav.services">Services</a></li>
+        <li><a href="about.html" data-i18n="nav.about">About</a></li>
+        <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+      </ul>
+      <div class="lang-toggle">
+        <button class="lang-btn" data-lang="en">EN</button>
+        <button class="lang-btn" data-lang="de">DE</button>
+      </div>
+    </div>
   </nav>
 </header>
 
@@ -46,19 +64,103 @@
       <div class="about-body fade-in">
         <span class="eyebrow" data-i18n="about.eyebrow">The Conservator</span>
         <h1 data-i18n="about.title">About Me</h1>
-        <p data-i18n="about.p1">I am a paintings and sculpture conservator-restorer, working with private collections, museums and heritage institutions. My approach combines hands-on treatment with careful technical examination — every intervention is documented, reversible where possible, and guided by respect for the original material and intent of the artist.</p>
-        <p data-i18n="about.p2">I am a proud member of SKR (Schweizerischer Verband für Konservierung und Restaurierung) and VDR (Verband der Restauratoren), and continue to build on years of hands-on experience across conservation studios, private commissions and cultural institutions.</p>
-
-        <h2 data-i18n="about.cv.title" style="margin-top:36px;">Training &amp; Experience</h2>
-        <ul class="cv-list">
-          <li data-i18n="about.cv.1">Diploma in Conservation-Restoration — [Institution, Year]</li>
-          <li data-i18n="about.cv.2">[Role], [Studio / Museum name] — [Years]</li>
-          <li data-i18n="about.cv.3">[Role], [Studio / Museum name] — [Years]</li>
-          <li data-i18n="about.cv.4">Member, SKR — Schweizerischer Verband für Konservierung und Restaurierung</li>
-          <li data-i18n="about.cv.5">Member, VDR — Verband der Restauratoren</li>
-        </ul>
-        <p class="editable-note" data-i18n="about.cv.note">Editable — replace the placeholders above with your training, positions and dates.</p>
+        <p class="lead" data-i18n="about.lead">Preserving Art. Safeguarding History.</p>
+        <p data-i18n="about.p1">Art has fascinated me for as long as I can remember — not only for its beauty, but above all for the stories it tells. Artworks mirror people, cultures and eras, and continue to shape our understanding of history today.</p>
+        <p data-i18n="about.p2">Studying art history was therefore the natural first step for me. The more deeply I engaged with artworks and their historical significance, the greater my enthusiasm for our cultural heritage grew.</p>
+        <p data-i18n="about.p3">The turning point came during an internship in Dresden. I watched a colleague examine a painting that had been taken out of its frame and laid on the work table. Suddenly, the artwork was no longer just a finished picture — through its materials, brushstrokes, varnish layers and earlier restorations, it told an entirely new story.</p>
+        <p data-i18n="about.p4">In that moment, I realised that conservator-restorers are, in many ways, detectives of art. Every crack, every paint layer, every alteration offers clues to an artwork's history. Reading and understanding these traces, and drawing the best possible conservation decisions from them, fascinated me from that very first moment.</p>
+        <p data-i18n="about.p5">Today, it's exactly this combination of art, history, science and hands-on precision that excites me. Every artwork raises new questions, every object tells its own story — and that is what makes this profession so special.</p>
+        <p data-i18n="about.p6">To me, the task of a conservator is not simply to restore artworks, but to understand them, preserve their authenticity, and safeguard them for future generations.</p>
       </div>
+    </div>
+  </section>
+
+  <section class="about-extended-section">
+    <div class="container">
+    <div class="about-extended">
+
+      <div class="about-section fade-in">
+        <h2 data-i18n="about.edu.title">Education</h2>
+        <h3 data-i18n="about.edu.master.title">Master of Arts in Conservation-Restoration</h3>
+        <p data-i18n="about.edu.master.text">During my Master's degree, I specialised in the conservation and restoration of paintings and sculptures. My thesis examined a group of works by the Swiss Renaissance painter Hans Asper. By combining technical art examination, conservation research and art-historical analysis, I was able to gain new insights into painting technique, materiality and the works' history. The thesis was developed in close collaboration with the Swiss National Museum's Collection Centre and formed the basis for a scientific publication.</p>
+        <h3 data-i18n="about.edu.bachelor.title">Bachelor of Arts in Art History</h3>
+        <p data-i18n="about.edu.bachelor.text">My studies in art history laid the foundation for my understanding of art, cultural history and visual analysis — knowledge that remains a key foundation of my conservation work today.</p>
+      </div>
+
+      <div class="about-section fade-in">
+        <h2 data-i18n="about.highlights.title">Professional Highlights</h2>
+        <p data-i18n="about.highlights.intro">Over the course of my career, I have had the privilege of working with renowned museums, restoration studios, cultural institutions and private collections across Switzerland, Germany, Austria and the United Kingdom. These experiences have profoundly shaped both how I look at artworks and my approach to conservation.</p>
+
+        <h3 data-i18n="about.highlights.museums.title">Museums &amp; Cultural Institutions</h3>
+        <ul class="cv-list">
+          <li data-i18n="about.highlights.museums.1">Swiss National Museum – Collection Centre</li>
+          <li data-i18n="about.highlights.museums.2">Dresden State Art Collections</li>
+          <li data-i18n="about.highlights.museums.3">Kunsthistorisches Museum Vienna</li>
+          <li data-i18n="about.highlights.museums.4">Kunstmuseum Basel</li>
+          <li data-i18n="about.highlights.museums.5">Kunsthalle Mannheim</li>
+          <li data-i18n="about.highlights.museums.6">Historical Museum of the Palatinate, Speyer</li>
+        </ul>
+
+        <h3 data-i18n="about.highlights.studios.title">Restoration Studios</h3>
+        <ul class="cv-list">
+          <li data-i18n="about.highlights.studios.1">Hoess Conservation, Switzerland</li>
+          <li data-i18n="about.highlights.studios.2">Katherine Ara Ltd., London</li>
+        </ul>
+
+        <h3 data-i18n="about.highlights.contemporary.title">Contemporary Art</h3>
+        <p data-i18n="about.highlights.contemporary.text">Working with art advisor and curator Alma Zevi gave me valuable insight into the world of contemporary art, and into how artists, galleries, collectors and cultural institutions work together.</p>
+
+        <h3 data-i18n="about.highlights.research.title">Research &amp; Publications</h3>
+        <ul class="cv-list">
+          <li data-i18n="about.highlights.research.1">Scientific publication in collaboration with the Swiss National Museum's Collection Centre</li>
+          <li data-i18n="about.highlights.research.2">Technical art examinations and conservation science research</li>
+          <li data-i18n="about.highlights.research.3">Master's research on Hans Asper</li>
+        </ul>
+      </div>
+
+      <div class="about-section fade-in">
+        <h2 data-i18n="about.projects.title">Selected Project Experience</h2>
+        <p data-i18n="about.projects.intro">My work to date has included:</p>
+        <ul class="cv-list">
+          <li data-i18n="about.projects.1">Conservation and restoration of paintings, sculptures and frames</li>
+          <li data-i18n="about.projects.2">Technical art examinations and condition assessments</li>
+          <li data-i18n="about.projects.3">Preventive conservation and collection care</li>
+          <li data-i18n="about.projects.4">Preparing condition reports and digital documentation</li>
+          <li data-i18n="about.projects.5">Preparing and overseeing exhibitions</li>
+          <li data-i18n="about.projects.6">Installing and de-installing artworks</li>
+          <li data-i18n="about.projects.7">A preventive-conservation lighting project at the Gemäldegalerie Alte Meister in Dresden, assessing light exposure and minimising light-induced ageing</li>
+        </ul>
+      </div>
+
+      <div class="about-section fade-in">
+        <h2 data-i18n="about.philosophy.title">My Philosophy</h2>
+        <p data-i18n="about.philosophy.p1">To me, conservation means far more than treating visible damage.</p>
+        <p data-i18n="about.philosophy.p2">At the heart of my work is the long-term preservation of an artwork's original substance. The goal is to slow ageing processes, stabilise damage and preserve an object's authenticity. Restoration measures are carried out only where they are necessary for an artwork's stability, legibility or long-term preservation.</p>
+        <p data-i18n="about.philosophy.p3">Every conservation decision begins with a careful understanding of the artwork — its materials, its history, and the changes it has undergone over time. There is no standard solution. Every object deserves an individual approach, grounded in scientific examination, professional experience and the greatest respect for its history.</p>
+        <p data-i18n="about.philosophy.p4">My work follows the professional code of ethics of the European Confederation of Conservator-Restorers' Organisations (ECCO). These internationally recognised guidelines place respectful treatment of original substance, scientifically grounded decisions, thorough documentation, and responsibility for the long-term preservation of our cultural heritage at their core.</p>
+      </div>
+
+      <div class="about-section fade-in">
+        <h2 data-i18n="about.memberships.title">Memberships</h2>
+        <ul class="cv-list">
+          <li>
+            <a href="https://www.restaurierung.swiss/de/verband" target="_blank" rel="noopener noreferrer">SKR</a>
+            <span data-i18n="about.memberships.skr.suffix">– Schweizerischer Verband für Konservierung und Restaurierung</span>
+          </li>
+          <li>
+            <a href="https://www.restauratoren.de/der-vdr/" target="_blank" rel="noopener noreferrer">VDR</a>
+            <span data-i18n="about.memberships.vdr.suffix">– Verband der Restauratoren</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="about-section fade-in">
+        <h2 data-i18n="about.outlook.title">Outlook</h2>
+        <p data-i18n="about.outlook.p1">Every artwork carries its own history within it. Contributing to its preservation is, for me, both a great responsibility and a privilege.</p>
+        <p data-i18n="about.outlook.p2">Whether for a museum, gallery, institution or private collection, I approach every object with curiosity, precision and the greatest respect. Because for me, conservation means preserving not only artworks, but also the stories, craftsmanship and cultural heritage they carry within them.</p>
+      </div>
+
+    </div>
     </div>
   </section>
 
@@ -67,14 +169,7 @@
 <footer class="site-footer">
   <div class="container">
     <div class="footer-grid">
-      <div>
-        <div class="footer-brand">Snape Art Conservation</div>
-        <p class="footer-member" data-i18n="footer.member">Proud member of SKR &amp; VDR</p>
-      </div>
-      <div class="footer-contact">
-        <a href="mailto:info@snapeartconservation.com">info@snapeartconservation.com</a>
-        <a href="tel:+41786521080">+41 78 652 1080</a>
-      </div>
+      <img src="images/monogram.svg" alt="Snape Art Conservation monogram" class="footer-monogram">
       <div class="footer-social">
         <a href="#" aria-label="Instagram">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
@@ -86,10 +181,17 @@
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h-2a4 4 0 0 0-4 4v3H7v4h2v7h4v-7h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
         </a>
       </div>
+      <div>
+        <p class="footer-member">
+          <span data-i18n="footer.member.prefix">Proud member of</span>
+          <a href="https://www.restaurierung.swiss/de/verband" target="_blank" rel="noopener noreferrer">SKR</a>
+          &amp;
+          <a href="https://www.restauratoren.de/der-vdr/" target="_blank" rel="noopener noreferrer">VDR</a>
+        </p>
+      </div>
     </div>
     <div class="footer-bottom">
       <span>&copy; <span id="year"></span> Snape Art Conservation. <span data-i18n="footer.rights">All rights reserved.</span></span>
-      <span data-i18n="footer.tagline">Conservation &amp; Restoration Studio</span>
     </div>
   </div>
 </footer>
