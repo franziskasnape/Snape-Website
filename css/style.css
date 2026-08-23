@@ -585,6 +585,18 @@ form { display: flex; flex-direction: column; gap: 18px; }
 .form-status.is-error { color: #d97757; }
 .btn:disabled { opacity: 0.6; cursor: not-allowed; }
 
+/* ---------------- 404 ---------------- */
+.notfound-section {
+  min-height: 56vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.notfound-section .container { max-width: 480px; }
+.notfound-section .eyebrow { font-size: 1.1rem; letter-spacing: 0.2em; }
+.notfound-section p { font-size: 1.02rem; margin-bottom: 28px; }
+
 /* ---------------- Footer ---------------- */
 .site-footer {
   background: var(--bg-alt);

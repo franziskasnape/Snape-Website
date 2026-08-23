@@ -158,7 +158,11 @@ const translations = {
 
     // Footer
     "footer.member.prefix": "Proud member of",
-    "footer.rights": "All rights reserved."
+    "footer.rights": "All rights reserved.",
+    "notfound.eyebrow": "404",
+    "notfound.title": "Page Not Found",
+    "notfound.text": "The page you are looking for does not exist or may have been moved.",
+    "notfound.button": "Back to Home"
   },
 
   de: {
@@ -315,6 +319,10 @@ const translations = {
 
     // Footer
     "footer.member.prefix": "Stolzes Mitglied von",
-    "footer.rights": "Alle Rechte vorbehalten."
+    "footer.rights": "Alle Rechte vorbehalten.",
+    "notfound.eyebrow": "404",
+    "notfound.title": "Seite nicht gefunden",
+    "notfound.text": "Die gesuchte Seite existiert nicht oder wurde verschoben.",
+    "notfound.button": "Zurück zur Startseite"
   }
 };
