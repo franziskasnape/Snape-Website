@@ -694,21 +694,13 @@ form { display: flex; flex-direction: column; gap: 18px; }
 @media (max-width: 720px) {
   .header-contact { display: none; }
   .menu-toggle { display: flex; }
-  .logo-name { font-size: 1.5rem; letter-spacing: 0.05em; }
-  .logo-sub { font-size: 0.82rem; }
-  .logo-divider { display: none; }
-  .logo {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 4px;
-  }
+  .logo-name { font-size: 1.2rem; letter-spacing: 0.04em; }
+  .logo-sub { font-size: 0.66rem; }
+  .logo { gap: 10px; }
   .logo-tagline {
-    font-size: 0.6rem;
-    letter-spacing: 0.06em;
-    line-height: 1.35;
-    border-top: 1px solid var(--border);
-    padding-top: 4px;
-    margin-top: 2px;
+    font-size: 0.56rem;
+    letter-spacing: 0.04em;
+    line-height: 1.3;
   }
   .hero-simple h1,
   .contact-info h1,
