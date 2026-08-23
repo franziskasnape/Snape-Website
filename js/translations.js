@@ -113,9 +113,9 @@ const translations = {
 
     "about.edu.title": "Education",
     "about.edu.master.title": "Master of Arts in Conservation-Restoration",
-    "about.edu.master.text": "I specialised in the conservation and restoration of paintings and sculptures. My thesis on the Swiss Renaissance painter Hans Asper combined technical examination, conservation research and art-historical analysis, developed in collaboration with the Swiss National Museum's Collection Centre, the Central Library Zurich, Kunsthaus Zürich and Kunstmuseum Solothurn, and published academically.",
+    "about.edu.master.text": "I specialised in the conservation and restoration of paintings and sculptures. My thesis on the Swiss Renaissance painter Hans Asper combined technical examination, conservation research and art-historical analysis, developed in collaboration with the Swiss National Museum, Zürich Central Library, Kunsthaus Zürich and the Kunstmuseum Solothurn, and was published academically.",
     "about.edu.bachelor.title": "Bachelor of Arts in Art History",
-    "about.edu.bachelor.text": "My studies laid the foundation for my understanding of art, cultural history and visual analysis — knowledge that remains central to my conservation work today.",
+    "about.edu.bachelor.text": "My studies laid the foundation for my understanding of art, cultural history and visual analysis — knowledge that remains central to my conservation-restoration work today.",
 
     "about.highlights.title": "Professional Highlights",
     "about.highlights.intro": "I've worked with renowned museums, restoration studios, cultural institutions and private collections across Switzerland, Germany, Austria, the UK and Canada, shaping how I approach conservation today.",
@@ -274,9 +274,9 @@ const translations = {
 
     "about.edu.title": "Ausbildung",
     "about.edu.master.title": "Master of Arts in Konservierung-Restaurierung",
-    "about.edu.master.text": "Im Rahmen meines Masterstudiums spezialisierte ich mich auf die Konservierung und Restaurierung von Gemälden und Skulpturen. Meine Masterarbeit über den Schweizer Renaissance-Maler Hans Asper verband kunsttechnologische Untersuchung, restaurierungswissenschaftliche Forschung und kunsthistorische Analyse. Sie entstand in Zusammenarbeit mit dem Sammlungszentrum des Schweizerischen Nationalmuseums, der Zentralbibliothek Zürich, dem Kunsthaus Zürich und dem Kunstmuseum Solothurn und wurde wissenschaftlich publiziert.",
+    "about.edu.master.text": "Im Rahmen meines Masterstudiums spezialisierte ich mich auf die Konservierung und Restaurierung von Gemälden und Skulpturen. Meine Masterarbeit über den Schweizer Renaissance-Maler Hans Asper verband kunsttechnologische Untersuchung, restaurierungswissenschaftliche Forschung und kunsthistorische Analyse. Sie entstand in Zusammenarbeit mit dem Schweizerischen Nationalmuseum, der Zentralbibliothek Zürich, dem Kunsthaus Zürich und dem Kunstmuseum Solothurn und wurde wissenschaftlich publiziert.",
     "about.edu.bachelor.title": "Bachelor of Arts in Kunstgeschichte",
-    "about.edu.bachelor.text": "Mein Studium der Kunstgeschichte legte den Grundstein für mein Verständnis von Kunst, Kulturgeschichte und visueller Analyse – Wissen, das für meine konservatorische Arbeit bis heute zentral ist.",
+    "about.edu.bachelor.text": "Mein Studium der Kunstgeschichte legte den Grundstein für mein Verständnis von Kunst, Kulturgeschichte und visueller Analyse – Wissen, das für meine konservatorisch-restauratorische Arbeit bis heute zentral ist.",
 
     "about.highlights.title": "Berufliche Highlights",
     "about.highlights.intro": "Im Laufe meiner Laufbahn durfte ich mit renommierten Museen, Restaurierungsateliers, Kulturinstitutionen und Privatsammlungen in der Schweiz, Deutschland, Österreich, Großbritannien und Kanada zusammenarbeiten – Erfahrungen, die meinen konservatorischen Ansatz bis heute prägen.",
