@@ -133,8 +133,8 @@ const translations = {
     "about.highlights.private.1": "Ongoing supervision of a private collection, Canada",
 
     "about.philosophy.title": "My Philosophy",
-    "about.philosophy.p1": "To me, conservation means far more than treating visible damage. At its heart is the long-term preservation of an artwork's original substance — slowing ageing, stabilising damage and preserving authenticity. Restoration is carried out only where necessary for an object's stability, legibility or long-term preservation.",
-    "about.philosophy.p2": "Every decision begins with understanding the artwork itself — its materials, history and the changes it has undergone. There's no standard solution; each object deserves an individual approach, grounded in scientific examination and the ECCO code of ethics, which places respectful treatment, documentation and long-term preservation at its core.",
+    "about.philosophy.p1": "To me, conservation means far more than treating visible damage. At its heart is the long-term preservation of an artwork's original substance — slowing ageing, stabilising damage and preserving authenticity. Restoration is carried out only where necessary for an object's stability, legibility or lasting integrity.",
+    "about.philosophy.p2": "Every decision begins with understanding the artwork itself — its materials, history and the changes it has undergone. There's no standard solution; each object deserves an individual approach and tailored concept, grounded in scientific examination and the ECCO code of ethics, which places respectful treatment, documentation and enduring care at its core.",
 
     "about.memberships.title": "Memberships",
     "about.memberships.skr.suffix": "– Schweizerischer Verband für Konservierung und Restaurierung",
@@ -294,8 +294,8 @@ const translations = {
     "about.highlights.private.1": "Laufende Betreuung einer Privatsammlung, Kanada",
 
     "about.philosophy.title": "Meine Philosophie",
-    "about.philosophy.p1": "Für mich bedeutet Konservierung weit mehr als die Behandlung sichtbarer Schäden. Im Zentrum meiner Arbeit steht der langfristige Erhalt der originalen Substanz eines Kunstwerks – das Verlangsamen von Alterungsprozessen, die Stabilisierung von Schäden und die Bewahrung seiner Authentizität. Restauratorische Maßnahmen erfolgen nur dort, wo sie für die Stabilität, Lesbarkeit oder den langfristigen Erhalt eines Objekts notwendig sind.",
-    "about.philosophy.p2": "Jede konservatorische Entscheidung beginnt mit einem genauen Verständnis des Kunstwerks – seiner Materialien, seiner Geschichte und der Veränderungen, die es im Laufe der Zeit erfahren hat. Es gibt keine Standardlösung; jedes Objekt verdient einen individuellen Ansatz, der auf wissenschaftlicher Untersuchung und dem Berufsethik-Kodex der ECCO beruht, der den respektvollen Umgang mit der Originalsubstanz, eine sorgfältige Dokumentation und die Verantwortung für den langfristigen Erhalt unseres kulturellen Erbes in den Mittelpunkt stellt.",
+    "about.philosophy.p1": "Für mich bedeutet Konservierung weit mehr als die Behandlung sichtbarer Schäden. Im Zentrum meiner Arbeit steht der langfristige Erhalt der originalen Substanz eines Kunstwerks – das Verlangsamen von Alterungsprozessen, die Stabilisierung von Schäden und die Bewahrung seiner Authentizität. Restauratorische Maßnahmen erfolgen nur dort, wo sie für die Stabilität, Lesbarkeit oder dauerhafte Unversehrtheit eines Objekts notwendig sind.",
+    "about.philosophy.p2": "Jede konservatorische Entscheidung beginnt mit einem genauen Verständnis des Kunstwerks – seiner Materialien, seiner Geschichte und der Veränderungen, die es im Laufe der Zeit erfahren hat. Es gibt keine Standardlösung; jedes Objekt verdient einen individuellen Ansatz und ein maßgeschneidertes Konzept, die auf wissenschaftlicher Untersuchung und dem Berufsethik-Kodex der ECCO beruhen, der den respektvollen Umgang mit der Originalsubstanz, eine sorgfältige Dokumentation und die dauerhafte Pflege unseres kulturellen Erbes in den Mittelpunkt stellt.",
 
     "about.memberships.title": "Mitgliedschaften",
     "about.memberships.skr.suffix": "– Schweizerischer Verband für Konservierung und Restaurierung",
