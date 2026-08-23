@@ -118,7 +118,7 @@ const translations = {
     "about.edu.bachelor.text": "My studies laid the foundation for my understanding of art, cultural history and visual analysis — knowledge that remains central to my conservation-restoration work today.",
 
     "about.highlights.title": "Professional Highlights",
-    "about.highlights.intro": "I've worked with renowned museums, restoration studios, cultural institutions and private collections across Switzerland, Germany, Austria, the UK and Canada, shaping how I approach conservation today.",
+    "about.highlights.intro": "I've worked with museums, freelance studios, cultural institutions and private collections across Switzerland, Germany, Austria, the UK and Canada.",
     "about.highlights.museums.title": "Museums & Cultural Institutions",
     "about.highlights.museums.1": "Swiss National Museum – Collection Centre",
     "about.highlights.museums.2": "Dresden State Art Collections",
@@ -279,7 +279,7 @@ const translations = {
     "about.edu.bachelor.text": "Mein Studium der Kunstgeschichte legte den Grundstein für mein Verständnis von Kunst, Kulturgeschichte und visueller Analyse – Wissen, das für meine konservatorisch-restauratorische Arbeit bis heute zentral ist.",
 
     "about.highlights.title": "Berufliche Highlights",
-    "about.highlights.intro": "Im Laufe meiner Laufbahn durfte ich mit renommierten Museen, Restaurierungsateliers, Kulturinstitutionen und Privatsammlungen in der Schweiz, Deutschland, Österreich, Großbritannien und Kanada zusammenarbeiten – Erfahrungen, die meinen konservatorischen Ansatz bis heute prägen.",
+    "about.highlights.intro": "Im Laufe meiner Laufbahn durfte ich mit Museen, freiberuflichen Ateliers, Kulturinstitutionen und Privatsammlungen in der Schweiz, Deutschland, Österreich, Großbritannien und Kanada zusammenarbeiten.",
     "about.highlights.museums.title": "Museen & Kulturinstitutionen",
     "about.highlights.museums.1": "Schweizerisches Nationalmuseum – Sammlungszentrum",
     "about.highlights.museums.2": "Staatliche Kunstsammlungen Dresden",
