@@ -120,7 +120,7 @@
     if (!form) return;
     // Submits directly via FormSubmit.co (no backend needed, no account setup
     // required by the site owner beyond confirming the destination inbox once).
-    var endpoint = "https://formsubmit.co/ajax/info@snapeartconservation.com";
+    var endpoint = "https://formsubmit.co/ajax/info@snape-conservation.com";
 
     form.addEventListener("submit", function (e) {
       e.preventDefault();
