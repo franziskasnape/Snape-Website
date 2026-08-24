@@ -54,7 +54,7 @@ const translations = {
     "services.item2.b3": "Conservation and restoration of frames",
     "services.item2.b13": "Mounting and framing of artworks (including works on paper)",
     "services.item2.b14": "Concept of new hanging system",
-    "services.item2.b16": "Optimisation of existing framing, including vibration padding and backing protection",
+    "services.item2.b16": "Optimisation of existing framing, including vibration padding and backing board",
     "services.item2.b4": "Surface cleaning",
     "services.item2.b5": "Consolidation and stabilisation of the paint layer",
     "services.item2.b6": "Filling losses",
