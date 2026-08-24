@@ -36,7 +36,7 @@ const translations = {
     // Services
     "services.eyebrow": "What I offer",
     "services.title": "Service Spectrum",
-    "services.intro": "Conserving artworks means more than treating visible damage — it means preserving their original substance for future generations. Where restoration is needed, damage is carefully repaired and losses reintegrated, always with the artwork's integrity in mind. Every measure is minimally invasive, reversible, scientifically grounded and tailored to the individual object. The conservation-restoration treatments can be executed at our studio or on-site at your home or facility.",
+    "services.intro": "Conservation measures preserve and stabilise an artwork's current condition; restoration comes into play where damage needs repairing or losses reintegrating — always with the artwork's integrity in mind. Every treatment is tailored to the individual object: minimally invasive, reversible and scientifically grounded. The conservation-restoration treatments can be executed at our studio or on-site at your home or facility.",
     "services.item1.title": "Investigation & Analysis",
     "services.item1.tagline": "The foundation of every conservation decision.",
     "services.item1.text": "No artwork is like another — materials, techniques and ageing processes are as individual as its history. Investigation analyses an object's material composition and condition, uncovering the causes of damage and revealing its technique and history, forming the basis for a tailored conservation concept.",
@@ -196,7 +196,7 @@ const translations = {
     // Services
     "services.eyebrow": "Mein Angebot",
     "services.title": "Leistungsspektrum",
-    "services.intro": "Die Konservierung von Kunstwerken bedeutet mehr als die Behandlung sichtbarer Schäden – sie bedeutet den langfristigen Erhalt der Originalsubstanz. Wo eine Restaurierung notwendig ist, werden Schäden sorgfältig behoben und Verluste ergänzt – stets im Sinne der Integrität des Kunstwerks. Jede Maßnahme ist minimalinvasiv, reversibel, wissenschaftlich fundiert und individuell auf das Objekt abgestimmt. Die Konservierungs- und Restaurierungsarbeiten können in unserem Atelier oder bei Ihnen zu Hause oder in Ihren Räumlichkeiten durchgeführt werden.",
+    "services.intro": "Konservatorische Maßnahmen bewahren und stabilisieren den bestehenden Zustand eines Kunstwerks; restauratorische Maßnahmen kommen dort zum Einsatz, wo Schäden behoben oder Verluste ergänzt werden müssen – stets im Sinne der Integrität des Kunstwerks. Jede Behandlung wird individuell auf das jeweilige Objekt abgestimmt: minimalinvasiv, reversibel und wissenschaftlich fundiert. Die Konservierungs- und Restaurierungsarbeiten können in unserem Atelier oder bei Ihnen zu Hause oder in Ihren Räumlichkeiten durchgeführt werden.",
     "services.item1.title": "Untersuchung & Analyse",
     "services.item1.tagline": "Die Grundlage jeder konservatorischen Entscheidung.",
     "services.item1.text": "Kein Kunstwerk gleicht dem anderen – Materialien, Techniken und Alterungsprozesse sind so individuell wie seine Geschichte. Die Untersuchung analysiert die materielle Zusammensetzung und den Erhaltungszustand eines Objekts, ergründet Schadensursachen und gewinnt Informationen zu Kunsttechnologie und Geschichte – die Grundlage für ein individuelles Konzept.",
