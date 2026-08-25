@@ -368,7 +368,7 @@ section { padding: 56px 0; }
 .reel--hero .reel-track::-webkit-scrollbar { display: none; }
 .reel--hero .reel-track img {
   width: 100%;
-  height: clamp(320px, 58vw, 640px);
+  height: clamp(220px, 40vw, 440px);
   border: none;
   border-radius: 0;
 }
