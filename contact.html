@@ -73,7 +73,7 @@
         </div>
       </div>
 
-      <form id="contact-form" class="fade-in" action="https://formsubmit.co/info@snape-conservation.com" method="POST" enctype="multipart/form-data">
+      <form id="contact-form" class="fade-in" action="https://formsubmit.co/info@snape-conservation.com" method="POST" enctype="multipart/form-data" target="formsubmit-frame">
         <!-- Hidden FormSubmit.co config (no account needed, JS above submits via AJAX;
              these keep the form working even if a visitor has JavaScript disabled) -->
         <input type="hidden" name="_subject" value="New website enquiry — Snape Art Conservation">
@@ -106,6 +106,7 @@
         </div>
         <p class="form-status" role="status"></p>
       </form>
+      <iframe name="formsubmit-frame" id="formsubmit-frame" style="display:none" aria-hidden="true" title="Form submission target"></iframe>
     </div>
   </section>
 

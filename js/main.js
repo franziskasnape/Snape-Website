@@ -120,24 +120,24 @@
     if (!form) return;
     // Submits directly via FormSubmit.co (no backend needed, no account setup
     // required by the site owner beyond confirming the destination inbox once).
-    // Uses the plain (non-/ajax/) endpoint with multipart/form-data so that the
-    // optional file attachment is supported — FormSubmit's JSON /ajax/ endpoint
-    // cannot carry file uploads.
-    var endpoint = "https://formsubmit.co/info@snape-conservation.com";
+    // FormSubmit's file-upload support only works with a real, native
+    // multipart form submission (fetch/AJAX silently drops attachments), so
+    // the form targets a hidden iframe instead of using fetch — this avoids
+    // a page reload while still submitting the form the "normal" way.
+    var frame = document.querySelector("#formsubmit-frame");
     var MAX_FILE_SIZE = 10 * 1024 * 1024; // 10MB, FormSubmit's limit
+    var justSubmitted = false;
 
     form.addEventListener("submit", function (e) {
-      e.preventDefault();
       var lang = document.documentElement.getAttribute("lang") || "en";
       var status = form.querySelector(".form-status");
       var submitBtn = form.querySelector('button[type="submit"]');
       var fileInput = form.querySelector("#attachment");
 
-      if (status) {
-        status.classList.remove("is-error");
-      }
+      if (status) status.classList.remove("is-error");
 
       if (fileInput && fileInput.files && fileInput.files[0] && fileInput.files[0].size > MAX_FILE_SIZE) {
+        e.preventDefault();
         if (status) {
           status.classList.add("is-error");
           status.textContent = translations[lang]["contact.form.error"];
@@ -145,31 +145,24 @@
         return;
       }
 
+      // No preventDefault — let the browser submit natively into the hidden iframe.
+      justSubmitted = true;
       if (status) status.textContent = translations[lang]["contact.form.sending"];
       if (submitBtn) submitBtn.disabled = true;
-
-      fetch(endpoint, {
-        method: "POST",
-        headers: { "Accept": "application/json" },
-        body: new FormData(form)
-      })
-        .then(function (res) {
-          if (!res.ok) throw new Error("Request failed");
-        })
-        .then(function () {
-          if (status) status.textContent = translations[lang]["contact.form.success"];
-          form.reset();
-        })
-        .catch(function () {
-          if (status) {
-            status.classList.add("is-error");
-            status.textContent = translations[lang]["contact.form.error"];
-          }
-        })
-        .finally(function () {
-          if (submitBtn) submitBtn.disabled = false;
-        });
     });
+
+    if (frame) {
+      frame.addEventListener("load", function () {
+        if (!justSubmitted) return; // ignore the iframe's initial blank load on page load
+        justSubmitted = false;
+        var lang = document.documentElement.getAttribute("lang") || "en";
+        var status = form.querySelector(".form-status");
+        var submitBtn = form.querySelector('button[type="submit"]');
+        if (status) status.textContent = translations[lang]["contact.form.success"];
+        if (submitBtn) submitBtn.disabled = false;
+        form.reset();
+      });
+    }
   }
 
   document.addEventListener("DOMContentLoaded", function () {
