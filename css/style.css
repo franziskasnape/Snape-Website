@@ -320,6 +320,10 @@ section { padding: 56px 0; }
   border: 1px solid var(--border);
   flex-shrink: 0;
 }
+.reel-track img.reel-img-contain {
+  object-fit: contain;
+  background: var(--bg-card);
+}
 .reel-nav {
   display: flex;
   gap: 10px;
