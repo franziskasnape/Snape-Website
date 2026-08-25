@@ -585,6 +585,7 @@ form { display: flex; flex-direction: column; gap: 18px; }
   border-color: var(--accent);
 }
 .field textarea { resize: vertical; min-height: 120px; }
+.required-mark { color: var(--accent); }
 .form-note { font-size: 0.8rem; margin-top: -4px; }
 .form-status { font-size: 0.85rem; color: var(--accent-light); min-height: 1.2em; }
 .form-status.is-error { color: #d97757; }
