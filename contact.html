@@ -73,7 +73,7 @@
         </div>
       </div>
 
-      <form id="contact-form" class="fade-in" action="https://formsubmit.co/info@snape-conservation.com" method="POST">
+      <form id="contact-form" class="fade-in" action="https://formsubmit.co/info@snape-conservation.com" method="POST" enctype="multipart/form-data">
         <!-- Hidden FormSubmit.co config (no account needed, JS above submits via AJAX;
              these keep the form working even if a visitor has JavaScript disabled) -->
         <input type="hidden" name="_subject" value="New website enquiry — Snape Art Conservation">
@@ -96,6 +96,10 @@
         <div class="field">
           <label for="message" data-i18n="contact.form.message">Further information</label>
           <textarea id="message" name="message" required></textarea>
+        </div>
+        <div class="field">
+          <label for="attachment" data-i18n="contact.form.attachment">Attach a photo (optional, max. 10MB)</label>
+          <input type="file" id="attachment" name="attachment" accept="image/png, image/jpeg, image/webp, application/pdf">
         </div>
         <div>
           <button type="submit" class="btn btn-solid" data-i18n="contact.form.submit">Send message</button>
