@@ -99,7 +99,7 @@ const translations = {
     // About
     "about.title": "About Me",
     "about.lead": "Preserving Art. Safeguarding History.",
-    "about.photo.caption": "In front of the theatre backdrops by Hauteville, collection of the Swiss National Museum.",
+    "about.photo.caption": "In front of the theatre backdrops from Hauteville, collection of the Swiss National Museum.",
     "about.p1": "Art has fascinated me for as long as I can remember — not only for its beauty, but for the stories it tells. Studying art history was the first step, and the more I engaged with artworks and their history, the more my enthusiasm for the subject grew.",
     "about.p2": "The turning point in my career came during an internship in Dresden, Germany. I witnessed a colleague examine a painting out of its frame. Through its materials, technique and earlier restorations, the artwork told an entirely new story — and I realised that conservator-restorers are, in many ways, detectives of art. I, too, wanted to be one of these detectives.",
     "about.p3": "Today it's this combination of art, history, science and hands-on precision that drives me. To me, a conservator-restorer's task isn't to restore artworks, but to understand them, preserve their authenticity, and safeguard them for future generations.",
