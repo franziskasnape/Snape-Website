@@ -427,6 +427,7 @@ section { padding: 56px 0; }
 .service-row-image img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .service-row-image img.img-pos-down { object-position: center 75%; }
 .service-row-image img.img-contain { object-fit: contain; background: var(--bg-card); }
+.service-row-image img.img-pos-left { object-position: 0% center; }
 
 .service-tagline {
   font-family: var(--font-body);
