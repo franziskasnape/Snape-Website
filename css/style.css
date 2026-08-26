@@ -346,7 +346,7 @@ section { padding: 56px 0; }
 .reel-nav button:hover { border-color: var(--accent); color: var(--accent-light); }
 
 /* ---------------- Homepage hero simple + hero reel ---------------- */
-.hero-simple { padding: 64px 0 32px; text-align: left; }
+.hero-simple { padding: 32px 0 16px; text-align: left; }
 .hero-simple .hero-copy { max-width: 720px; }
 .hero-simple .lead { font-size: 1.15rem; max-width: 56ch; }
 
