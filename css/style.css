@@ -496,11 +496,18 @@ section { padding: 56px 0; }
   gap: 52px;
   align-items: start;
 }
+.about-photo-wrap { order: 2; }
 .about-photo {
-  order: 2;
   border-radius: 4px;
   overflow: hidden;
   border: 1px solid var(--border);
+}
+.about-photo-wrap .photo-caption {
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  font-style: italic;
+  line-height: 1.5;
+  margin: 10px 2px 0;
 }
 .about-body { order: 1; text-align: left; }
 .about-body p { font-size: 1.02rem; }
