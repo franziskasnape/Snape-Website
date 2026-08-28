@@ -381,6 +381,12 @@ section { padding: 56px 0; }
   border: none;
   border-radius: 0;
 }
+.reel--hero .reel-track img.reel-img-inset {
+  object-fit: contain;
+  background: var(--bg-card);
+  padding: 30px;
+  box-sizing: border-box;
+}
 .reel-arrow {
   position: absolute;
   top: 50%;
