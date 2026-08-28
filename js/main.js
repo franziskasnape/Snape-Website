@@ -70,21 +70,76 @@
   }
 
   function initReel() {
+    var AUTOPLAY_DELAY = 4500;
+    var RESUME_DELAY = 7000;
+    var reduceMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
     document.querySelectorAll(".reel").forEach(function (reel) {
       var track = reel.querySelector(".reel-track");
       var prev = reel.querySelector(".reel-prev");
       var next = reel.querySelector(".reel-next");
       if (!track) return;
+
       var scrollAmount = function () {
         var img = track.querySelector("img");
         return img ? img.getBoundingClientRect().width + 16 : 300;
       };
+
+      var atEnd = function () {
+        return track.scrollLeft + track.clientWidth >= track.scrollWidth - 4;
+      };
+
+      var advance = function () {
+        if (atEnd()) {
+          track.scrollTo({ left: 0, behavior: "smooth" });
+        } else {
+          track.scrollBy({ left: scrollAmount(), behavior: "smooth" });
+        }
+      };
+
+      var goBack = function () {
+        if (track.scrollLeft <= 4) {
+          track.scrollTo({ left: track.scrollWidth, behavior: "smooth" });
+        } else {
+          track.scrollBy({ left: -scrollAmount(), behavior: "smooth" });
+        }
+      };
+
+      var timer = null;
+      var resumeTimer = null;
+
+      var stop = function () {
+        if (timer) { clearInterval(timer); timer = null; }
+      };
+
+      var start = function () {
+        if (reduceMotion || timer) return;
+        timer = setInterval(advance, AUTOPLAY_DELAY);
+      };
+
+      var pauseThenResume = function () {
+        stop();
+        if (resumeTimer) clearTimeout(resumeTimer);
+        resumeTimer = setTimeout(start, RESUME_DELAY);
+      };
+
       if (prev) prev.addEventListener("click", function () {
-        track.scrollBy({ left: -scrollAmount(), behavior: "smooth" });
+        goBack();
+        pauseThenResume();
       });
       if (next) next.addEventListener("click", function () {
-        track.scrollBy({ left: scrollAmount(), behavior: "smooth" });
+        advance();
+        pauseThenResume();
       });
+
+      reel.addEventListener("mouseenter", stop);
+      reel.addEventListener("mouseleave", start);
+      reel.addEventListener("touchstart", pauseThenResume, { passive: true });
+      document.addEventListener("visibilitychange", function () {
+        if (document.hidden) stop(); else start();
+      });
+
+      start();
     });
   }
 
