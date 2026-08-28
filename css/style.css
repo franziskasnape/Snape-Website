@@ -384,7 +384,7 @@ section { padding: 56px 0; }
 .reel--hero .reel-track img.reel-img-inset {
   object-fit: contain;
   background: var(--bg-card);
-  padding: 30px;
+  padding: 4px;
   box-sizing: border-box;
 }
 .reel-arrow {
