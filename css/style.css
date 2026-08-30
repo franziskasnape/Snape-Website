@@ -366,7 +366,6 @@ section { padding: 56px 0; }
   width: 100%;
   aspect-ratio: 4 / 3;
   height: auto;
-  max-height: 520px;
   object-fit: cover;
   border: none;
   border-radius: 0;
