@@ -355,7 +355,7 @@ section { padding: 56px 0; }
 .hero-title-name { text-transform: uppercase; letter-spacing: 0.08em; }
 
 .hero-reel-section { padding: 0 0 64px; }
-.reel--hero { border-radius: 6px; overflow: hidden; border: 1px solid var(--border); }
+.reel--hero { max-width: 720px; margin: 0 auto; border-radius: 6px; overflow: hidden; border: 1px solid var(--border); }
 .reel--hero .reel-track {
   gap: 0;
   padding-bottom: 0;
