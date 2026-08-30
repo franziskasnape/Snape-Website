@@ -320,16 +320,6 @@ section { padding: 56px 0; }
   border: 1px solid var(--border);
   flex-shrink: 0;
 }
-.reel-track img.reel-img-contain {
-  object-fit: contain;
-  background: var(--bg-card);
-}
-.reel-track img.reel-img-inset {
-  object-fit: contain;
-  background: var(--bg-card);
-  padding: 30px;
-  box-sizing: border-box;
-}
 .reel-nav {
   display: flex;
   gap: 10px;
