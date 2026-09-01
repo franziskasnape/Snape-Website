@@ -126,8 +126,8 @@ const translations = {
     "about.highlights.private.title": "Private Collections",
     "about.highlights.private.1": "Ongoing supervision of a private collection, Canada",
 
-    "about.philosophy.title": "Franziska's Philosophy",
-    "about.philosophy.p1": "To Franziska, conservation means far more than treating visible damage. At the heart of her work is the long-term preservation of an artwork's original substance: slowing ageing, stabilising damage and preserving authenticity. Restoration is carried out only where necessary for an object's stability, legibility or lasting integrity.",
+    "about.philosophy.title": "Our Philosophy",
+    "about.philosophy.p1": "To us, conservation means far more than treating visible damage. At the heart of our work is the long-term preservation of an artwork's original substance: slowing ageing, stabilising damage and preserving authenticity. Restoration is carried out only where necessary for an object's stability, legibility or lasting integrity.",
     "about.philosophy.p2": "Every decision begins with understanding the artwork itself: its materials, history and the changes it has undergone. There's no standard solution; each object deserves an individual approach and tailored concept, grounded in scientific examination and the ECCO code of ethics, which places respectful treatment, documentation and enduring care at its core.",
 
     "about.memberships.title": "Memberships",
@@ -282,8 +282,8 @@ const translations = {
     "about.highlights.private.title": "Privatsammlungen",
     "about.highlights.private.1": "Laufende Betreuung einer Privatsammlung, Kanada",
 
-    "about.philosophy.title": "Franziskas Philosophie",
-    "about.philosophy.p1": "Für Franziska bedeutet Konservierung weit mehr als die Behandlung sichtbarer Schäden. Im Zentrum ihrer Arbeit steht der langfristige Erhalt der originalen Substanz eines Kunstwerks: das Verlangsamen von Alterungsprozessen, die Stabilisierung von Schäden und die Bewahrung seiner Authentizität. Restauratorische Maßnahmen erfolgen nur dort, wo sie für die Stabilität, Lesbarkeit oder dauerhafte Unversehrtheit eines Objekts notwendig sind.",
+    "about.philosophy.title": "Unsere Philosophie",
+    "about.philosophy.p1": "Für uns bedeutet Konservierung weit mehr als die Behandlung sichtbarer Schäden. Im Zentrum unserer Arbeit steht der langfristige Erhalt der originalen Substanz eines Kunstwerks: das Verlangsamen von Alterungsprozessen, die Stabilisierung von Schäden und die Bewahrung seiner Authentizität. Restauratorische Maßnahmen erfolgen nur dort, wo sie für die Stabilität, Lesbarkeit oder dauerhafte Unversehrtheit eines Objekts notwendig sind.",
     "about.philosophy.p2": "Jede konservatorische Entscheidung beginnt mit einem genauen Verständnis des Kunstwerks: seiner Materialien, seiner Geschichte und der Veränderungen, die es im Laufe der Zeit erfahren hat. Es gibt keine Standardlösung; jedes Objekt verdient einen individuellen Ansatz und ein maßgeschneidertes Konzept, die auf wissenschaftlicher Untersuchung und dem Berufsethik-Kodex der ECCO beruhen, der den respektvollen Umgang mit der Originalsubstanz, eine sorgfältige Dokumentation und die dauerhafte Pflege unseres kulturellen Erbes in den Mittelpunkt stellt.",
 
     "about.memberships.title": "Mitgliedschaften",
