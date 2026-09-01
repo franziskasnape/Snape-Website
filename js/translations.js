@@ -7,7 +7,7 @@ const translations = {
   en: {
     "nav.home": "Home",
     "nav.services": "Services",
-    "nav.about": "About Me",
+    "nav.about": "About Us",
     "nav.contact": "Contact",
 
     "header.appointments": "Appointments available",
@@ -97,7 +97,7 @@ const translations = {
     "services.leistungen.label": "Services",
 
     // About
-    "about.title": "About Me",
+    "about.title": "About Us",
     "about.lead": "Preserving Art. Safeguarding History.",
     "about.photo.caption": "Founder Franziska Snape in front of the theatre backdrops from Hauteville, collection of the Swiss National Museum.",
     "about.p1": "Art has fascinated me for as long as I can remember, not only for its beauty, but for the stories it tells. Studying art history was the first step, and the more I engaged with artworks and their history, the more my enthusiasm for the subject grew.",
@@ -163,7 +163,7 @@ const translations = {
   de: {
     "nav.home": "Startseite",
     "nav.services": "Leistungen",
-    "nav.about": "Über mich",
+    "nav.about": "Über uns",
     "nav.contact": "Kontakt",
 
     "header.appointments": "Termine nach Vereinbarung",
@@ -253,7 +253,7 @@ const translations = {
     "services.leistungen.label": "Leistungen",
 
     // About
-    "about.title": "Über mich",
+    "about.title": "Über uns",
     "about.lead": "Kunst bewahren. Geschichte erhalten.",
     "about.photo.caption": "Gründerin Franziska Snape vor den Theaterkulissen von Hauteville, Sammlung Schweizerisches Nationalmuseum.",
     "about.p1": "Kunst fasziniert mich, solange ich denken kann, nicht nur wegen ihrer Schönheit, sondern vor allem wegen der Geschichten, die sie erzählt. Für mich war der erste logische Schritt das Studium der Kunstgeschichte, und je intensiver ich mich mit Kunstwerken und ihrem historischen Kontext auseinandersetzte, desto mehr wuchs meine Begeisterung für dieses Fachgebiet.",
