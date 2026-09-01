@@ -107,7 +107,7 @@ const translations = {
 
     "about.edu.title": "Education",
     "about.edu.master.title": "Master of Arts in Conservation-Restoration",
-    "about.edu.master.text": "Franziska specialised in the conservation and restoration of paintings and sculptures. Her thesis on the Swiss Renaissance painter Hans Asper combined technical examination, conservation research and art-historical analysis, developed in collaboration with the Swiss National Museum, Zürich Central Library, Kunsthaus Zürich and the Kunstmuseum Solothurn, and was published academically.",
+    "about.edu.master.text": "Franziska completed her Master's degree at Bern University of Applied Sciences (HKB Bern), specialising in the conservation and restoration of paintings and sculptures. Her thesis on the Swiss Renaissance painter Hans Asper combined technical examination, conservation research and art-historical analysis, developed in collaboration with the Swiss National Museum, Zürich Central Library, Kunsthaus Zürich and the Kunstmuseum Solothurn, and was published academically.",
     "about.edu.bachelor.title": "Bachelor of Arts in Art History",
     "about.edu.bachelor.text": "Her studies laid the foundation for her understanding of art, cultural history and visual analysis. That knowledge remains central to her conservation-restoration work today.",
 
@@ -263,7 +263,7 @@ const translations = {
 
     "about.edu.title": "Ausbildung",
     "about.edu.master.title": "Master of Arts in Konservierung-Restaurierung",
-    "about.edu.master.text": "Im Rahmen ihres Masterstudiums spezialisierte sich Franziska auf die Konservierung und Restaurierung von Gemälden und Skulpturen. Ihre Masterarbeit über den Schweizer Renaissance-Maler Hans Asper verband kunsttechnologische Untersuchung, restaurierungswissenschaftliche Forschung und kunsthistorische Analyse. Sie entstand in Zusammenarbeit mit dem Schweizerischen Nationalmuseum, der Zentralbibliothek Zürich, dem Kunsthaus Zürich und dem Kunstmuseum Solothurn und wurde wissenschaftlich publiziert.",
+    "about.edu.master.text": "Franziska schloss ihren Master an der Berner Fachhochschule (HKB Bern) ab und spezialisierte sich auf die Konservierung und Restaurierung von Gemälden und Skulpturen. Ihre Masterarbeit über den Schweizer Renaissance-Maler Hans Asper verband kunsttechnologische Untersuchung, restaurierungswissenschaftliche Forschung und kunsthistorische Analyse. Sie entstand in Zusammenarbeit mit dem Schweizerischen Nationalmuseum, der Zentralbibliothek Zürich, dem Kunsthaus Zürich und dem Kunstmuseum Solothurn und wurde wissenschaftlich publiziert.",
     "about.edu.bachelor.title": "Bachelor of Arts in Kunstgeschichte",
     "about.edu.bachelor.text": "Ihr Studium der Kunstgeschichte legte den Grundstein für ihr Verständnis von Kunst, Kulturgeschichte und visueller Analyse. Dieses Wissen ist für ihre konservatorisch-restauratorische Arbeit bis heute zentral.",
 
