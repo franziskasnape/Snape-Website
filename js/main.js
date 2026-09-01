@@ -80,31 +80,35 @@
       var next = reel.querySelector(".reel-next");
       if (!track) return;
 
-      var scrollAmount = function () {
-        var item = track.querySelector(".reel-item") || track.querySelector("img");
-        if (!item) return 300;
-        var gap = parseFloat(getComputedStyle(track).columnGap || getComputedStyle(track).gap) || 0;
-        return item.getBoundingClientRect().width + gap;
+      var slides = function () {
+        return Array.prototype.slice.call(track.querySelectorAll("img"));
       };
 
-      var atEnd = function () {
-        return track.scrollLeft + track.clientWidth >= track.scrollWidth - 4;
+      var slideWidth = function () {
+        var imgs = slides();
+        if (imgs.length > 1) return imgs[1].offsetLeft - imgs[0].offsetLeft;
+        return imgs[0] ? imgs[0].getBoundingClientRect().width : 300;
+      };
+
+      var currentIndex = function () {
+        var w = slideWidth();
+        return w ? Math.round(track.scrollLeft / w) : 0;
+      };
+
+      var scrollToIndex = function (i) {
+        var imgs = slides();
+        var count = imgs.length;
+        if (!count) return;
+        var idx = ((i % count) + count) % count;
+        track.scrollTo({ left: imgs[idx].offsetLeft, behavior: "smooth" });
       };
 
       var advance = function () {
-        if (atEnd()) {
-          track.scrollTo({ left: 0, behavior: "smooth" });
-        } else {
-          track.scrollBy({ left: scrollAmount(), behavior: "smooth" });
-        }
+        scrollToIndex(currentIndex() + 1);
       };
 
       var goBack = function () {
-        if (track.scrollLeft <= 4) {
-          track.scrollTo({ left: track.scrollWidth, behavior: "smooth" });
-        } else {
-          track.scrollBy({ left: -scrollAmount(), behavior: "smooth" });
-        }
+        scrollToIndex(currentIndex() - 1);
       };
 
       var timer = null;
