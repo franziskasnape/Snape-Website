@@ -34,7 +34,7 @@ const translations = {
     "home.highlights.link": "See all services",
 
     // Services
-    "services.eyebrow": "What I offer",
+    "services.eyebrow": "What we offer",
     "services.title": "Service Spectrum",
     "services.intro": "Conservation measures preserve and stabilise an artwork's current condition; restoration comes into play where damage needs repairing or losses reintegrating, always with the artwork's integrity in mind. Every treatment is tailored to the individual object: minimally invasive, reversible and scientifically grounded. The conservation-restoration treatments can be executed at our studio or on-site at your home or facility.",
     "services.item1.title": "Investigation & Analysis",
@@ -190,7 +190,7 @@ const translations = {
     "home.highlights.link": "Alle Leistungen ansehen",
 
     // Services
-    "services.eyebrow": "Mein Angebot",
+    "services.eyebrow": "Unser Angebot",
     "services.title": "Leistungsspektrum",
     "services.intro": "Konservatorische Maßnahmen bewahren und stabilisieren den bestehenden Zustand eines Kunstwerks; restauratorische Maßnahmen kommen dort zum Einsatz, wo Schäden behoben oder Verluste ergänzt werden müssen, stets im Sinne der Integrität des Kunstwerks. Jede Behandlung wird individuell auf das jeweilige Objekt abgestimmt: minimalinvasiv, reversibel und wissenschaftlich fundiert. Die Konservierungs- und Restaurierungsarbeiten können in unserem Atelier oder bei Ihnen zu Hause oder in Ihren Räumlichkeiten durchgeführt werden.",
     "services.item1.title": "Untersuchung & Analyse",
