@@ -192,7 +192,7 @@ const translations = {
     // Services
     "services.eyebrow": "Unser Angebot",
     "services.title": "Leistungsspektrum",
-    "services.intro": "Konservatorische Maßnahmen bewahren und stabilisieren den bestehenden Zustand eines Kunstwerks; restauratorische Maßnahmen kommen dort zum Einsatz, wo Schäden behoben oder Verluste ergänzt werden müssen, stets im Sinne der Integrität des Kunstwerks. Jede Behandlung wird individuell auf das jeweilige Objekt abgestimmt: minimalinvasiv, reversibel und wissenschaftlich fundiert. Die Konservierungs- und Restaurierungsarbeiten können in unserem Atelier oder bei Ihnen zu Hause oder in Ihren Räumlichkeiten durchgeführt werden.",
+    "services.intro": "Konservatorische Maßnahmen bewahren und stabilisieren den bestehenden Zustand eines Kunstwerks; restauratorische Maßnahmen kommen dort zum Einsatz, wo Schäden behoben oder Verluste ergänzt werden müssen, stets im Sinne der Integrität des Kunstwerks. Jede Behandlung wird individuell auf das jeweilige Objekt abgestimmt: minimalinvasiv, reversibel und wissenschaftlich fundiert. Restaurierungsarbeiten können in unserem Atelier, bei Ihnen zu Hause oder in Ihren Räumlichkeiten durchgeführt werden.",
     "services.item1.title": "Untersuchung & Analyse",
     "services.item1.tagline": "Die Grundlage jeder konservatorischen Entscheidung.",
     "services.item1.text": "Kein Kunstwerk gleicht dem anderen: Materialien, Techniken und Alterungsprozesse sind ebenso individuell wie seine Geschichte. Die Untersuchung analysiert Zusammensetzung, Zustand und Schadensursachen und liefert damit die Grundlage für ein individuelles Konzept.",
