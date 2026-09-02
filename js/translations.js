@@ -249,7 +249,7 @@ const translations = {
     "services.item5.b6": "Installation und Deinstallation von Kunstwerken",
     "services.item5.b7": "Kurierbegleitungen",
         "services.cta.title": "Braucht Ihr Objekt Hilfe?",
-    "services.cta.button": "Bewertung anfragen",
+    "services.cta.button": "Beratung anfragen",
     "services.leistungen.label": "Leistungen",
 
     // About
