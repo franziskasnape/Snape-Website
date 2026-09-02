@@ -32,6 +32,19 @@
       if (value !== undefined) el.setAttribute("placeholder", value);
     });
 
+    // Images with baked-in "BEFORE"/"AFTER" labels get a separate German
+    // version (data-src-de) swapped in for German; the original src is
+    // captured on first run so we can swap back to English too.
+    document.querySelectorAll("[data-src-de]").forEach(function (el) {
+      if (!el.getAttribute("data-src-en")) {
+        el.setAttribute("data-src-en", el.getAttribute("src"));
+      }
+      var deSrc = el.getAttribute("data-src-de");
+      var enSrc = el.getAttribute("data-src-en");
+      var target = lang === "de" ? deSrc : enSrc;
+      if (el.getAttribute("src") !== target) el.setAttribute("src", target);
+    });
+
     document.querySelectorAll(".lang-btn").forEach(function (btn) {
       btn.classList.toggle("active", btn.getAttribute("data-lang") === lang);
     });
